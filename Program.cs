@@ -1,7 +1,17 @@
+using DouglasRent.Data;
+using Microsoft.EntityFrameworkCore;
+
 var builder = WebApplication.CreateBuilder(args);
 
-// Add services to the container.
+
+
 builder.Services.AddControllersWithViews();
+
+// Connection to the SQL Server database Through the Entity Framework with the creation of the Data folder and the ApplicationDbContext class
+builder.Services.AddDbContext<ApplicationDbContext>(options =>
+{
+    options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")); //Database connection
+});
 
 var app = builder.Build();
 

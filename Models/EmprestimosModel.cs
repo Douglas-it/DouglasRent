@@ -1,8 +1,10 @@
-﻿namespace DouglasRent.Models
+﻿using System;
+
+namespace DouglasRent.Models
 {
     public class EmprestimosModel
     {
-        //Campos da tabela emprestimos no banco de dados
+        //Fields from the loans table in the database
         public int id { get; set; }
         public string Recebedor { get; set; }
 
@@ -10,7 +12,7 @@
 
         public string LivroEmprestado { get; set; }
 
-        public Datetime DataEmprestimo { get; set; } = DateTime.Now;
+        public DateTime DataUltimaUtilizacao { get; set; } = DateTime.Now;
 
     }
 }

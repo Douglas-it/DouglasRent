@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\JORMA\\Desktop\\AspnetCore\\DouglasRent\\DouglasRent\\DouglasRent.csproj": {}
+    "C:\\Users\\JORMA\\DouglasRent\\DouglasRent.csproj": {}
   },
   "projects": {
-    "C:\\Users\\JORMA\\Desktop\\AspnetCore\\DouglasRent\\DouglasRent\\DouglasRent.csproj": {
+    "C:\\Users\\JORMA\\DouglasRent\\DouglasRent.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\JORMA\\Desktop\\AspnetCore\\DouglasRent\\DouglasRent\\DouglasRent.csproj",
+        "projectUniqueName": "C:\\Users\\JORMA\\DouglasRent\\DouglasRent.csproj",
         "projectName": "DouglasRent",
-        "projectPath": "C:\\Users\\JORMA\\Desktop\\AspnetCore\\DouglasRent\\DouglasRent\\DouglasRent.csproj",
+        "projectPath": "C:\\Users\\JORMA\\DouglasRent\\DouglasRent.csproj",
         "packagesPath": "C:\\Users\\JORMA\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\JORMA\\Desktop\\AspnetCore\\DouglasRent\\DouglasRent\\obj\\",
+        "outputPath": "C:\\Users\\JORMA\\DouglasRent\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

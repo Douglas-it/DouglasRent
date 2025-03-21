@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Kqz14yJDxzGpz5FXdGfNabBZfAUev+eT4QS725nC6NGztFKUD8iEwDpvx0prF89qDGHfbLFP9mOJhdsMzKW4eQ==",
+  "dgSpecHash": "fY42Z3fQNRsd7yWlEewc4kPzotgGlhwWIP6QXAHZHp3mfuMqZ/6KcdTI3ArHh0X/FZd/XeSYoXIZs6QUlSSvdw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\JORMA\\Desktop\\AspnetCore\\DouglasRent\\DouglasRent\\DouglasRent.csproj",
+  "projectFilePath": "C:\\Users\\JORMA\\DouglasRent\\DouglasRent.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\JORMA\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",
     "C:\\Users\\JORMA\\.nuget\\packages\\azure.identity\\1.11.4\\azure.identity.1.11.4.nupkg.sha512",

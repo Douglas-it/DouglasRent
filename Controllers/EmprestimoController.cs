@@ -19,5 +19,22 @@ namespace DouglasRent.Controllers
             IEnumerable<EmprestimosModel> emprestimos = _db.Emprestimos; // rreceives all loans    
             return View(emprestimos);
         }
+
+        public IActionResult Cadastrar()  // Create method that returns a view.
+        {
+            return View();
+        }
+
+        [HttpPost] // Attribute that indicates that the method will respond to POST requests. 
+            public IActionResult Cadastrar(EmprestimosModel emprestimo) // Create method that receives a loan as a parameter.
+        {
+            if (ModelState.IsValid)
+            {
+                _db.Emprestimos.Add(emprestimo); // Add the loan to the database.
+                _db.SaveChanges(); // Save changes to the database.
+                return RedirectToAction("Index"); // Redirect to the Index method.
+            }
+            return View(emprestimo); // Return the loan.    
+        }
     }
 }

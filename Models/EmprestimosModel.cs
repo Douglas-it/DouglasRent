@@ -1,4 +1,5 @@
 ﻿using System;
+using System.ComponentModel.DataAnnotations;
 
 namespace DouglasRent.Models
 {
@@ -6,6 +7,8 @@ namespace DouglasRent.Models
     {
         //Fields from the loans table in the database
         public int id { get; set; }
+
+        [Required()]
         public string Recebedor { get; set; }
 
         public string Fornecedor  { get; set; }

@@ -1,7 +1,18 @@
-﻿@model IEnumerable< EmprestimosModel > // Model that will be passed to the view in enumeration because it is a list of loans
+﻿@model IEnumerable< EmprestimosModel > 
+
+@* Model that will be passed to the view in enumeration because it is a list of loans *@
+
+<div class="container"> @* Container that will hold the content *@
+   <div class="d-flex justify-content-between align-items-center mb-5"> 
+       <h1> Empréstimos</h1>
+       <a class="btn btn-success mb-3" asp-controller="Emprestimo" asp-action="Cadastrar"> Cadastrar Novo Empréstimo</a>
+   </div>
 
 
-<table class="table table-dark table-hover">  // Table that will display the list of loans in the view
+
+
+    <table class="table table-dark table-hover">
+        @* Table that will display the list of loans in the view *@
     <thead>
         <tr>
             <th scope="col">Recebedor</th>   // Table headers
@@ -11,15 +22,13 @@
         </tr>
     </thead>
     <tbody>
-        
-        @if (Model != null) /* If the model is not null, it will display the list of loans */
-        
-        {
-            foreach(var emprestimo in Model)  
+
+            @if (Model != null)
+                foreach (var emprestimo in Model)  
             
             {
                 <tr>
-                    <th scope="row">@emprestimo.Recebedor</th> 
+                    <th scope="row">@emprestimo.Recebedor</th>     
                     <td>@emprestimo.Fornecedor</td>
                     <td>@emprestimo.LivroEmprestado</td>
                     <td>@emprestimo.DataUltimaUtilizacao</td>
@@ -29,3 +38,5 @@
        
     </tbody>
 </table>
+</div>
+

@@ -3,20 +3,28 @@
   "WorkspaceRootPath": "C:\\Users\\JORMA\\DouglasRent\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{28A0C3EA-1F8B-47CE-B62D-BA56B28623AA}|DouglasRent.csproj|c:\\users\\jorma\\douglasrent\\models\\emprestimosmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{28A0C3EA-1F8B-47CE-B62D-BA56B28623AA}|DouglasRent.csproj|solutionrelative:models\\emprestimosmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{28A0C3EA-1F8B-47CE-B62D-BA56B28623AA}|DouglasRent.csproj|C:\\Users\\JORMA\\DouglasRent\\controllers\\emprestimocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{28A0C3EA-1F8B-47CE-B62D-BA56B28623AA}|DouglasRent.csproj|solutionrelative:controllers\\emprestimocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{28A0C3EA-1F8B-47CE-B62D-BA56B28623AA}|DouglasRent.csproj|c:\\users\\jorma\\douglasrent\\views\\emprestimo\\excluir.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{28A0C3EA-1F8B-47CE-B62D-BA56B28623AA}|DouglasRent.csproj|solutionrelative:views\\emprestimo\\excluir.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{28A0C3EA-1F8B-47CE-B62D-BA56B28623AA}|DouglasRent.csproj|c:\\users\\jorma\\douglasrent\\views\\emprestimo\\cadastrar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{28A0C3EA-1F8B-47CE-B62D-BA56B28623AA}|DouglasRent.csproj|solutionrelative:views\\emprestimo\\cadastrar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{28A0C3EA-1F8B-47CE-B62D-BA56B28623AA}|DouglasRent.csproj|C:\\Users\\JORMA\\DouglasRent\\controllers\\emprestimocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{28A0C3EA-1F8B-47CE-B62D-BA56B28623AA}|DouglasRent.csproj|solutionrelative:controllers\\emprestimocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{28A0C3EA-1F8B-47CE-B62D-BA56B28623AA}|DouglasRent.csproj|C:\\Users\\JORMA\\DouglasRent\\Models\\EmprestimosModel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{28A0C3EA-1F8B-47CE-B62D-BA56B28623AA}|DouglasRent.csproj|solutionrelative:Models\\EmprestimosModel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{28A0C3EA-1F8B-47CE-B62D-BA56B28623AA}|DouglasRent.csproj|c:\\users\\jorma\\douglasrent\\views\\emprestimo\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{28A0C3EA-1F8B-47CE-B62D-BA56B28623AA}|DouglasRent.csproj|C:\\Users\\JORMA\\DouglasRent\\views\\emprestimo\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{28A0C3EA-1F8B-47CE-B62D-BA56B28623AA}|DouglasRent.csproj|solutionrelative:views\\emprestimo\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{28A0C3EA-1F8B-47CE-B62D-BA56B28623AA}|DouglasRent.csproj|c:\\users\\jorma\\douglasrent\\views\\emprestimo\\editar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{28A0C3EA-1F8B-47CE-B62D-BA56B28623AA}|DouglasRent.csproj|solutionrelative:views\\emprestimo\\editar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,17 +34,17 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "EmprestimoController.cs",
               "DocumentMoniker": "C:\\Users\\JORMA\\DouglasRent\\Controllers\\EmprestimoController.cs",
               "RelativeDocumentMoniker": "Controllers\\EmprestimoController.cs",
               "ToolTip": "C:\\Users\\JORMA\\DouglasRent\\Controllers\\EmprestimoController.cs",
               "RelativeToolTip": "Controllers\\EmprestimoController.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAiwCQAAAA8AAAA",
+              "ViewState": "AQIAAEYAAAAAAAAAAAAAAFwAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-24T10:41:03.324Z",
               "IsPinned": true,
@@ -44,15 +52,16 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "EmprestimosModel.cs",
-              "DocumentMoniker": "C:\\Users\\JORMA\\DouglasRent\\Models\\EmprestimosModel.cs",
-              "RelativeDocumentMoniker": "Models\\EmprestimosModel.cs",
-              "ToolTip": "C:\\Users\\JORMA\\DouglasRent\\Models\\EmprestimosModel.cs",
-              "RelativeToolTip": "Models\\EmprestimosModel.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAUAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-24T14:54:22.468Z",
+              "DocumentIndex": 5,
+              "Title": "Editar.cshtml",
+              "DocumentMoniker": "C:\\Users\\JORMA\\DouglasRent\\Views\\Emprestimo\\Editar.cshtml",
+              "RelativeDocumentMoniker": "Views\\Emprestimo\\Editar.cshtml",
+              "ToolTip": "C:\\Users\\JORMA\\DouglasRent\\Views\\Emprestimo\\Editar.cshtml",
+              "RelativeToolTip": "Views\\Emprestimo\\Editar.cshtml",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAACUAAAAGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-25T10:56:36.01Z",
+              "IsPinned": true,
               "EditorCaption": ""
             },
             {
@@ -62,25 +71,51 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "Excluir.cshtml",
+              "DocumentMoniker": "C:\\Users\\JORMA\\DouglasRent\\Views\\Emprestimo\\Excluir.cshtml",
+              "RelativeDocumentMoniker": "Views\\Emprestimo\\Excluir.cshtml",
+              "ToolTip": "C:\\Users\\JORMA\\DouglasRent\\Views\\Emprestimo\\Excluir.cshtml",
+              "RelativeToolTip": "Views\\Emprestimo\\Excluir.cshtml",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAACQAAAA3AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-25T11:37:43.704Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "EmprestimosModel.cs",
+              "DocumentMoniker": "C:\\Users\\JORMA\\DouglasRent\\Models\\EmprestimosModel.cs",
+              "RelativeDocumentMoniker": "Models\\EmprestimosModel.cs",
+              "ToolTip": "C:\\Users\\JORMA\\DouglasRent\\Models\\EmprestimosModel.cs",
+              "RelativeToolTip": "Models\\EmprestimosModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAALAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-24T14:54:22.468Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "Cadastrar.cshtml",
               "DocumentMoniker": "C:\\Users\\JORMA\\DouglasRent\\Views\\Emprestimo\\Cadastrar.cshtml",
               "RelativeDocumentMoniker": "Views\\Emprestimo\\Cadastrar.cshtml",
               "ToolTip": "C:\\Users\\JORMA\\DouglasRent\\Views\\Emprestimo\\Cadastrar.cshtml",
               "RelativeToolTip": "Views\\Emprestimo\\Cadastrar.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAAAAAA",
+              "ViewState": "AQIAAAIAAAAAAAAAAAAAACQAAAAGAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-03-24T13:47:00.083Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\JORMA\\DouglasRent\\Views\\Emprestimo\\Index.cshtml",
               "RelativeDocumentMoniker": "Views\\Emprestimo\\Index.cshtml",
               "ToolTip": "C:\\Users\\JORMA\\DouglasRent\\Views\\Emprestimo\\Index.cshtml",
               "RelativeToolTip": "Views\\Emprestimo\\Index.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
+              "ViewState": "AQIAAAwAAAAAAAAAAADwvyoAAAAVAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-03-24T10:34:21.889Z",
               "EditorCaption": ""

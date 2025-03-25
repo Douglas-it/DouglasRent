@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("DouglasRent")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ffacb10e1d4e6d966ae1ee98990d22ba31738a75")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+64dff56bcdf6891ba18630b07a3ef75b8885f5fe")]
 [assembly: System.Reflection.AssemblyProductAttribute("DouglasRent")]
 [assembly: System.Reflection.AssemblyTitleAttribute("DouglasRent")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -20,10 +20,77 @@ namespace DouglasRent.Controllers
             return View(emprestimos);
         }
 
+
+        [HttpGet]
+        public IActionResult Editar(int? id) // Edit method that receives an id as a parameter.
+        {
+            if (id == null || id == 0 ) // If the id is 0.
+            {
+                return NotFound(); // Redirect to the Index method.
+            }
+
+            EmprestimosModel emprestimos = _db.Emprestimos.FirstOrDefault(x => x.id == id); // Find the loan by id.
+
+            if (emprestimos == null) // If the loan is null.
+            {
+                return NotFound(); // Redirect to the Index method.
+            }
+
+            return View(emprestimos);// Find the loan by id.
+            
+        }
+
+        [HttpGet]
         public IActionResult Cadastrar()  // Create method that returns a view.
         {
             return View();
         }
+
+
+        [HttpPost]
+        public IActionResult Editar(EmprestimosModel emprestimo) // Edit method that receives a loan as a parameter.
+        {
+            if (ModelState.IsValid) // If the model is valid.
+            {
+                _db.Emprestimos.Update(emprestimo); // Update the loan.
+                _db.SaveChanges(); // Save changes to the database.
+                return RedirectToAction("Index"); // Redirect to the Index method.
+            }
+            return View(emprestimo); // Return the loan.
+        }
+
+
+        [HttpGet]
+        public IActionResult Excluir(int? id) // Delete method that receives an id as a parameter.
+        {
+            if (id == null || id == 0) // If the id is 0.
+            {
+                return NotFound(); // Redirect to the Index method.
+            }
+
+            EmprestimosModel emprestimo = _db.Emprestimos.FirstOrDefault(x => x.id == id); // Find the loan by id.
+
+            if (emprestimo == null) // If the loan is null.
+            {
+                return NotFound(); // Redirect to the Index method.
+            }
+
+            return View(emprestimo); // Return the loan.
+        }
+
+        [HttpPost]
+        public IActionResult Excluir(EmprestimosModel emprestimo)
+        {
+            if (emprestimo == null)
+            {
+                return NotFound();
+            }
+
+            _db.Emprestimos.Remove(emprestimo);
+            _db.SaveChanges();
+            return RedirectToAction("Index");
+        }
+
 
         [HttpPost] // Attribute that indicates that the method will respond to POST requests. 
             public IActionResult Cadastrar(EmprestimosModel emprestimo) // Create method that receives a loan as a parameter.

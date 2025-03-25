@@ -158,9 +158,7 @@ C:\Users\JORMA\DouglasRent\obj\Debug\net8.0\staticwebassets\msbuild.build.Dougla
 C:\Users\JORMA\DouglasRent\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.DouglasRent.props
 C:\Users\JORMA\DouglasRent\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.DouglasRent.props
 C:\Users\JORMA\DouglasRent\obj\Debug\net8.0\staticwebassets.pack.json
-C:\Users\JORMA\DouglasRent\obj\Debug\net8.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
 C:\Users\JORMA\DouglasRent\obj\Debug\net8.0\scopedcss\bundle\DouglasRent.styles.css
-C:\Users\JORMA\DouglasRent\obj\Debug\net8.0\scopedcss\projectbundle\DouglasRent.bundle.scp.css
 C:\Users\JORMA\DouglasRent\obj\Debug\net8.0\DouglasR.917A7FAA.Up2Date
 C:\Users\JORMA\DouglasRent\obj\Debug\net8.0\DouglasRent.dll
 C:\Users\JORMA\DouglasRent\obj\Debug\net8.0\refint\DouglasRent.dll

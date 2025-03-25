@@ -40,13 +40,6 @@ namespace DouglasRent.Controllers
             
         }
 
-        [HttpGet]
-        public IActionResult Cadastrar()  // Create method that returns a view.
-        {
-            return View();
-        }
-
-
         [HttpPost]
         public IActionResult Editar(EmprestimosModel emprestimo) // Edit method that receives a loan as a parameter.
         {
@@ -54,8 +47,12 @@ namespace DouglasRent.Controllers
             {
                 _db.Emprestimos.Update(emprestimo); // Update the loan.
                 _db.SaveChanges(); // Save changes to the database.
+
+                TempData["MessageSucesso"] = "Emprestimo atualizado com sucesso!"; // Message that will be displayed on the screen.
                 return RedirectToAction("Index"); // Redirect to the Index method.
             }
+
+            TempData["MessageError"] = "Algum erro ocorreu na edição!";
             return View(emprestimo); // Return the loan.
         }
 
@@ -88,6 +85,8 @@ namespace DouglasRent.Controllers
 
             _db.Emprestimos.Remove(emprestimo);
             _db.SaveChanges();
+
+            TempData["MessageSucesso"] = "Emprestimo excluido com sucesso!";
             return RedirectToAction("Index");
         }
 
@@ -99,6 +98,9 @@ namespace DouglasRent.Controllers
             {
                 _db.Emprestimos.Add(emprestimo); // Add the loan to the database.
                 _db.SaveChanges(); // Save changes to the database.
+
+                TempData["MessageSucesso"] = "Emprestimo cadastrado com sucesso!"; // Message that will be displayed on the screen.
+
                 return RedirectToAction("Index"); // Redirect to the Index method.
             }
             return View(emprestimo); // Return the loan.    
